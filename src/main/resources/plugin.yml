@@ -1,0 +1,57 @@
+name: CB-System
+version: 'ALPHA-1.0.4'
+main: Invmalte.cbsys.CBSys
+author: Invmalte
+website: invmalte.de
+api-version: 1.21
+commands:
+  AllGui:
+  border:
+  discord:
+    aliases: [dc]
+  freerank:
+  Fullbright:
+  kristallshop:
+    aliases: [kshop]
+  kristalle:
+    description: Zeigt dein Kristallguthaben an oder verwaltet Guthaben für andere.
+    usage: /<command> [hinzufügen|entfernen] <spieler> <menge>
+    permission: kristall.use
+    permission-message: "Du hast keine Berechtigung, diesen Befehl zu verwenden."
+  kristallpay:
+    description: Bezahlt eine bestimmte Menge Kristalle für einen Kauf.
+    usage: /<command> <spieler> <kosten>
+    permission: kristall.admin
+    permission-message: "Du hast keine Berechtigung, diesen Befehl zu verwenden."
+  levelpay:
+  perks:
+  perkshop:
+  wall:
+  serversign:
+  sign:
+  teamchat:
+    aliases: [tc]
+  triplepickaxe:
+  booster:
+  rand:
+  wand:
+
+premissions:
+  cbsys.freerank.claimed:
+  cbsys.fullbright.use:
+  cbsys.border.use:
+  cbsys.border.admin:
+  cbsys.wall.use:
+  cbsys.wall.admin:
+  cbsys.serversign.use:
+  cbsys.sign.use:
+  cbsys.teamchat.see:
+  cbsys.teamchat.send:
+  cbsys.chat.team:
+  cbsys.chat.color:
+  cbsys.kristall.use:
+    description: Erlaubt dem Spieler, sein Kristallguthaben anzusehen.
+    default: true
+  cbsys.kristall.admin:
+    description: Erlaubt dem Spieler, Kristalle hinzuzufügen, zu entfernen oder zu bezahlen.
+    default: op

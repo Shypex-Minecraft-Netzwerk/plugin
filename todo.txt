@@ -1,0 +1,49 @@
+- Add Permission Registration for Luckperms to Start Up
+    - unregister for shutdown?
+- Kingdoms Spawn 400-500 Blöcke wenn fertig
+    - Glowstone Umrandung 300 Blöcke tiefer
+    - Anti Fall damage
+- Custom World Gen der ohne Erze generiert für die Bau Welt
+
+- Server Switch NPC am HUD Spawn
+
+- Prefixe ersetzen (§6KingdomsCraftMC.de §8» §7)
+
+- Playtime System
+- Datenbank mehr nutzen
+
+- Multiaccount Notify
+    - Ausnahmenliste erstellen
+        - Im Support Eintragung der Benutzernamen beantragen
+
+- Chat Event 2 Versionen, CMI true / false
+
+- Perks - Unendlich
+    - Stärke
+    - Eile
+    - Feuerresistenz
+    - Unterwasseratmung
+    - Kein Hunger - Update
+    - Inventar behalten - Update
+    - XP Behalten - Update
+    - Schnelligkeit - Update
+    - Glow - Update
+    - Fall Damage - Update
+    - Shulker - Update
+¡¡
+    - servername mit in die title einbauen
+
+    - Abfragen:
+        - GUI:
+            - Tipp Item:
+                - Paper auf Pos 5 (1 mittig)
+                - Lore: "Tipp: Klick für aktivieren / deaktivieren"
+
+
+- Überprüfen, ob alle Nachrichten und Config-Sachen in den ymls sind
+
+
+- [11:37:21 WARN]: @EventHandler method Invmalte.cbsys.GUI.RandGUIListener#GUI returns non-void type boolean. This is unsupported behavior and will no longer work in a future version of Paper. This should be reported to the developers of CB-System v1.0 (Invmalte)
+  [11:37:21 INFO]: CB-System DEBUG » RandGUI Listener
+  [11:37:21 WARN]: @EventHandler method Invmalte.cbsys.GUI.WandGUIListener#GUI returns non-void type boolean. This is unsupported behavior and will no longer work in a future version of Paper. This should be reported to the developers of CB-System v1.0 (Invmalte)
+  [11:37:21 INFO]: CB-System DEBUG » WandGUI Listener

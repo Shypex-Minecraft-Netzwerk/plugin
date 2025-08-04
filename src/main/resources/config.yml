@@ -1,0 +1,377 @@
+kristalle:
+  start-amount: 100
+
+booster:
+  duration: 900 # In Seconds, (x*20 Ticks)
+
+command:
+  discord:
+    link: "https://discord.gg/CK8zdqA2C4" # Example: https://discord.gg/CK8zdqA2C4
+  freerank:
+    rang_name: "premium" # Luckperms group Name
+    duration: "7L" # Format: xL
+  serversign:
+    without_text:
+      line1: "§7"
+      line2: "§7Signiert vom %servername%§7 am §e%date%§7." # Available Placeholders: %date%, %servername%
+    with_text:
+      line1: "§7"
+      line2: "§7Signiert vom %servername%§7 am §e%date%§7." # Available Placeholders: %date%, %servername%
+      line3: "§f%message%" # Available Placeholders: %message%
+  sign:
+    without_text:
+      line1: "§7"
+      line2: "§7Signiert von §b%name%§7 am §e%date% §7um §e%time% §7Uhr." # Available Placeholders: %name%, %date%, %time%
+    with_text:
+      line1: "§7"
+      line2: "§7Signiert von §b%name%§7 am §e%date% §7um §e%time% §7Uhr." # Available Placeholders: %name%, %date%, %time%
+      line3: "§f%message%" # Available Placeholders: %message%
+  teamchat:
+    prefix: "§9TEAM §8» §7%name% §8» §7" # Available Placeholders: %name%
+
+border: # Permission Syntax: cbsys.border.use.%permission%
+  count: 26 # Amount of available Borders
+  high: 63 # Y-Coordinate for Border Block
+  gui:
+    title: "%servername% §8» §9RandGUI" # Available Placeholder: %servername%
+    rang:
+      "01":
+        name: "§7Spieler §8• §7Rang"
+        gui-block: "STONE"
+        amount: 2 # Max. 7
+      "02":
+        name: "§6Rang 1 §8• §7Rang"
+        gui-block: "IRON_BLOCK"
+        amount: 6 # Max. 7
+      "03":
+        name: "§2Rang 2 §8• §7Rang"
+        gui-block: "GOLD_BLOCK"
+        amount: 6 # Max. 7
+      "04":
+        name: "§cRang 3 §8• §7Rang"
+        gui-block: "DIAMOND_BLOCK"
+        amount: 6 # Max. 7
+      "05":
+        name: "§9Rang 4 §8• §7Rang"
+        gui-block: "NETHERITE_BLOCK"
+        amount: 6 # Max. 7
+    fill:
+      name: "§7"
+      gui-block: "GRAY_STAINED_GLASS_PANE"
+  "01":
+    name: ""
+    material: "TUFF_BRICK_SLAB"
+    permission: "tuffbrickslab"
+    gui-block: "TUFF_BRICK_SLAB"
+  "02":
+    name: ""
+    material: "AIR"
+    permission: "air"
+    gui-block: "WIND_CHARGE"
+  "03":
+    name: ""
+    material: "OAK_SLAB"
+    permission: "oakslab"
+    gui-block: "OAK_SLAB"
+  "04":
+    name: ""
+    material: "SPRUCE_SLAB"
+    permission: "spruceslab"
+    gui-block: "SPRUCE_SLAB"
+  "05":
+    name: ""
+    material: "DARK_OAK_SLAB"
+    permission: "darkoakslab"
+    gui-block: "DARK_OAK_SLAB"
+  "06":
+    name: ""
+    material: "BIRCH_SLAB"
+    permission: "birchslab"
+    gui-block: "BIRCH_SLAB"
+  "07":
+    name: ""
+    material: "CHERRY_SLAB"
+    permission: "cherryslab"
+    gui-block: "CHERRY_SLAB"
+  "08":
+    name: ""
+    material: "MANGROVE_SLAB"
+    permission: "mangroveslab"
+    gui-block: "MANGROVE_SLAB"
+  "09":
+    name: ""
+    material: "STONE_SLAB"
+    permission: "stoneslab"
+    gui-block: "STONE_SLAB"
+  "10":
+    name: ""
+    material: "GRANITE_SLAB"
+    permission: "graniteslab"
+    gui-block: "GRANITE_SLAB"
+  "11":
+    name: ""
+    material: "DIORITE_SLAB"
+    permission: "dioriteslab"
+    gui-block: "DIORITE_SLAB"
+  "12":
+    name: ""
+    material: "ANDESITE_SLAB"
+    permission: "andesiteslab"
+    gui-block: "ANDESITE_SLAB"
+  "13":
+    name: ""
+    material: "COBBLED_DEEPSLATE_SLAB"
+    permission: "cobbleddeepslateslab"
+    gui-block: "COBBLED_DEEPSLATE_SLAB"
+  "14":
+    name: ""
+    material: "TUFF_SLAB"
+    permission: "tuffslab"
+    gui-block: "TUFF_SLAB"
+  "15":
+    name: ""
+    material: "WAXED_CUT_COPPER_SLAB"
+    permission: "waxedcutcopperslab"
+    gui-block: "WAXED_CUT_COPPER_SLAB"
+  "16":
+    name: ""
+    material: "WAXED_EXPOSED_CUT_COPPER_SLAB"
+    permission: "waxedexposedcutcopperslab"
+    gui-block: "WAXED_EXPOSED_CUT_COPPER_SLAB"
+  "17":
+    name: ""
+    material: "WAXED_WEATHERED_CUT_COPPER_SLAB"
+    permission: "waxedweatheredcutcopperslab"
+    gui-block: "WAXED_WEATHERED_CUT_COPPER_SLAB"
+  "18":
+    name: ""
+    material: "WAXED_OXIDIZED_CUT_COPPER_SLAB"
+    permission: "waxedoxidizedcutcopperslab"
+    gui-block: "WAXED_OXIDIZED_CUT_COPPER_SLAB"
+  "19":
+    name: ""
+    material: "MUD_BRICK_SLAB"
+    permission: "mudbrickslab"
+    gui-block: "MUD_BRICK_SLAB"
+  "20":
+    name: ""
+    material: "BRICK_SLAB"
+    permission: "brickslab"
+    gui-block: "BRICK_SLAB"
+  "21":
+    name: ""
+    material: "DARK_PRISMARINE_SLAB"
+    permission: "darkprismarineslab"
+    gui-block: "DARK_PRISMARINE_SLAB"
+  "22":
+    name: ""
+    material: "PRISMARINE_BRICK_SLAB"
+    permission: "prismarinebrickslab"
+    gui-block: "PRISMARINE_BRICK_SLAB"
+  "23":
+    name: ""
+    material: "PURPUR_SLAB"
+    permission: "purpurslab"
+    gui-block: "PURPUR_SLAB"
+  "24":
+    name: ""
+    material: "BLACKSTONE_SLAB"
+    permission: "blackstoneslab"
+    gui-block: "BLACKSTONE_SLAB"
+  "25":
+    name: ""
+    material: "RED_NETHER_BRICK_SLAB"
+    permission: "rednetherbrickslab"
+    gui-block: "RED_NETHER_BRICK_SLAB"
+  "26":
+    name: ""
+    material: "POLISHED_BLACKSTONE_BRICK_SLAB"
+    permission: "polishedblackstonebrickslab"
+    gui-block: "POLISHED_BLACKSTONE_BRICK_SLAB"
+
+wall: # Permission Syntax: cbsys.wall.use.%permission%
+  count: 26 # Amount of available Borders
+  minhigh: -64 # Min Y Coordinate
+  maxhigh: 62 # Max Y High (Border High -1)
+  gui:
+    title: "%servername% §8» §9WandGUI" # Available Placeholders: %servername%
+    rang:
+      "01":
+        name: "§7Spieler §8• §7Rang"
+        gui-block: "STONE"
+        amount: 2 # Max. 7
+      "02":
+        name: "§6Rang 1 §8• §7Rang"
+        gui-block: "IRON_BLOCK"
+        amount: 6 # Max. 7
+      "03":
+        name: "§2Rang 2 §8• §7Rang"
+        gui-block: "GOLD_BLOCK"
+        amount: 6 # Max. 7
+      "04":
+        name: "§cRang 3 §8• §7Rang"
+        gui-block: "DIAMOND_BLOCK"
+        amount: 6 # Max. 7
+      "05":
+        name: "§9Rang 4 §8• §7Rang"
+        gui-block: "NETHERITE_BLOCK"
+        amount: 6 # Max. 7
+    fill:
+      name: "§7"
+      gui-block: "GRAY_STAINED_GLASS_PANE"
+  "01":
+    name: ""
+    material: "STONE_BRICKS"
+    permission: "stonebricks"
+    gui-block: "STONE_BRICKS"
+  "02":
+    name: ""
+    material: "QUARTZ_BLOCK"
+    permission: "quartzblock"
+    gui-block: "QUARTZ_BLOCK"
+  "03":
+    name: ""
+    material: "TUFF"
+    permission: "tuff"
+    gui-block: "TUFF"
+  "04":
+    name: ""
+    material: "ANDESITE"
+    permission: "andesite"
+    gui-block: "ANDESITE"
+  "05":
+    name: ""
+    material: "DIORITE"
+    permission: "diorite"
+    gui-block: "DIORITE"
+  "06":
+    name: ""
+    material: "GRANITE"
+    permission: "granite"
+    gui-block: "GRANITE"
+  "07":
+    name: ""
+    material: "BRICKS"
+    permission: "bricks"
+    gui-block: "BRICKS"
+  "08":
+    name: ""
+    material: "MUD_BRICKS"
+    permission: "mudbricks"
+    gui-block: "MUD_BRICKS"
+  "09":
+    name: ""
+    material: "DEEPSLATE"
+    permission: "deepslate"
+    gui-block: "DEEPSLATE"
+  "10":
+    name: ""
+    material: "DEEPSLATE_BRICKS"
+    permission: "deepslatebricks"
+    gui-block: "DEEPSLATE_BRICKS"
+  "11":
+    name: ""
+    material: "CALCITE"
+    permission: "calcite"
+    gui-block: "CALCITE"
+  "12":
+    name: ""
+    material: "PEARLESCENT_FROGLIGHT"
+    permission: "pearlescentfroglight"
+    gui-block: "PEARLESCENT_FROGLIGHT"
+  "13":
+    name: ""
+    material: "VERDANT_FROGLIGHT"
+    permission: "verdantfroglight"
+    gui-block: "VERDANT_FROGLIGHT"
+  "14":
+    name: ""
+    material: "OCHRE_FROGLIGHT"
+    permission: "ochrefroglight"
+    gui-block: "OCHRE_FROGLIGHT"
+  "15":
+    name: ""
+    material: "GOLD_BLOCK"
+    permission: "goldblock"
+    gui-block: "GOLD_BLOCK"
+  "16":
+    name: ""
+    material: "IRON_BLOCK"
+    permission: "ironblock"
+    gui-block: "IRON_BLOCK"
+  "17":
+    name: ""
+    material: "RAW_GOLD_BLOCK"
+    permission: "rawgoldblock"
+    gui-block: "RAW_GOLD_BLOCK"
+  "18":
+    name: ""
+    material: "RAW_IRON_BLOCK"
+    permission: "rawironblock"
+    gui-block: "RAW_IRON_BLOCK"
+  "19":
+    name: ""
+    material: "AMETHYST_BLOCK"
+    permission: "amethystblock"
+    gui-block: "AMETHYST_BLOCK"
+  "20":
+    name: ""
+    material: "SEA_LANTERN"
+    permission: "sealantern"
+    gui-block: "SEA_LANTERN"
+  "21":
+    name: ""
+    material: "CRIMSON_HYPHAE"
+    permission: "crimsonhyphae"
+    gui-block: "CRIMSON_HYPHAE"
+  "22":
+    name: ""
+    material: "WARPED_HYPHAE"
+    permission: "warpedhyphae"
+    gui-block: "WARPED_HYPHAE"
+  "23":
+    name: ""
+    material: "CRYING_OBSIDIAN"
+    permission: "cryingobsidian"
+    gui-block: "CRYING_OBSIDIAN"
+  "24":
+    name: ""
+    material: "OBSIDIAN"
+    permission: "obsidian"
+    gui-block: "OBSIDIAN"
+  "25":
+    name: ""
+    material: "EMERALD_BLOCK"
+    permission: "emeraldblock"
+    gui-block: "EMERALD_BLOCK"
+  "26":
+    name: ""
+    material: "DIAMOND_BLOCK"
+    permission: "diamondblock"
+    gui-block: "DIAMOND_BLOCK"
+
+gui:
+  all_gui:
+    title: "%servername% §8» §9All GUI" # Available Placerholders: %servername%
+    perks:
+      name: "§9Perks"
+      lore: "§7Klicke, um die Perk GUI zu öffnen."
+  perks:
+    title: "§9Perks"
+    shoptitle: "§9Perkshop"
+    perks:
+      strength:
+        item: "GOLDEN_SWORD"
+        name: "§2Stärke-Perk"
+      haste:
+        item: "GOLDEN_PICKAXE"
+        name: "§6Eile-Perk"
+      fire:
+        item: "LAVA_BUCKET"
+        name: "§cFeuerresistenz-Perk"
+      water:
+        item: "WATER_BUCKET"
+        name: "§bUnterwasseratmungs-Perk"
+    lore:
+      activate: ""
+      deactive: ""

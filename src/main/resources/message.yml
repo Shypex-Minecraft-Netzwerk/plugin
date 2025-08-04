@@ -1,0 +1,134 @@
+all:
+  prefix: "§aCB-System §8» §7" # Example
+  servername: "§9KingdomscraftMC.de Netzwerk" # Example
+  no:
+    perms: "§cDu hast keine Berechtigung für diesen Befehl."
+    player: "§cDieser Befehl kann nur von Spielern ausgeführt werden."
+  invalid:
+    amount: "§cBitte gib eine gültige Zahl ein."
+    material: "§cFehler! §7Ungültiges Material"
+  player_not_found: "§cSpieler %player% ist nicht online oder existiert nicht." # Available Placeholders: %player%
+
+booster:
+  help:
+    player: "Verfügbare Befehle:<newline>§e/booster status §8- §7Zeigt aktive Booster<newline>§e/booster use <Booster> §8- §7Aktiviert einen Booster<newline>§e/booster help §8- §7Zeigt diesen Text" # Available Placeholders: <newline>
+    admin: "§e/booster give <Spieler> <Booster> <Anzahl><newline>§e/booster set <Spieler> <Booster> <Anzahl><newline>§e/booster see <Spieler> <Booster>" # Available Placeholders: <newline>
+  status:
+    1: "Es sind folgende Booster aktiv:"
+    2: "§8» §e%booster-name% §7Boost: %booster-state%" # Available Placeholders: %booster-name%, %booster-state%
+    true: "§aaktiv§7."
+    false: "§cnicht aktiv§7."
+  use:
+    use: "§cVerwendung: /booster use <Booster>"
+    already_active: "§cDer Booster §9%booster% §cist bereits aktiv!" # Available Placeholders: %booster%
+    no_boost: "§cDu hast keinen %booster%-Booster." # Available Placeholders: %booster%
+    activated: "Ein §9%booster%§7-Booster wurde von §b%name% §7eingesetzt!" # Available Placeholders: %booster%, %name%
+    timesup10: "§cDein Booster endet in 10 Sekunden!"
+    end_flybypass: "Dein Fly bleibt aktiv! Deaktiviere ihn bitte manuell, sobald du es willst."
+    boost_ebd: "Der §9%booster% §7Booster ist §causgelaufen§7." # Available Placeholders: %booster%
+  give:
+    use: "§cVerwendung: /booster give <Spieler> <Booster> <Anzahl>"
+    success: "§aBooster gegeben!"
+  set:
+    use: "§cVerwendung: /booster set <Spieler> <Booster> <Anzahl>"
+    success: "§aBooster gesetzt!"
+  see:
+    use: "§cVerwendung: /booster see <Spieler> <Booster>"
+    ans: "§e%name% §7hat §9%amount%x §9%booster%§7-Booster." # Available Placeholders: %name%, %amount%, %booster%
+
+clansystem:
+  msg: ""
+
+command:
+  discord:
+    message: "§nKlicke hier, um auf unseren Discord-Server zu gelangen."
+  freerank:
+    already_used: "§cDu hast diesen Befehl schon verwendet!"
+    claim_success: "§aDu hast deinen kostenlosen Rang erfolgreich erhalten!"
+  freeshop:
+    cleared: "Der Free Shop wurde geleert"
+  fullbright:
+    use: "Verwendung: /fullbright <on | off>"
+    "on": "Fullbright §aaktiviert§7."
+    "off": "Fullbright §cdeaktiviert§7."
+    already_on: "§cDu hast bereits Fullbright aktiviert."
+    already_off: "§cDu hast kein Fullbright aktiviert."
+  border:
+    usage: "§7Verwende: /border <MATERIAL>"
+    success: "§aDer Randblock wurde erfolgreich zu §e'%block%'§a geändert." # Available Placeholders: %block%
+    owner_err: "§cFehler! §7Du bist nicht der Besitzer dieses Grundstückes!"
+    no_perms: "§cFehler! §7Du hast keine Rechte auf den Randblock §e'%block%'§7!" # Available Placeholders: %block%
+    no_plot: "§cFehler! §7Du stehst auf keinem Grundstück!"
+    not_available: "§cFehler! §7Der Randblock§e §e'%block%'§7 steht nicht zur Verfügung!" # Available Placeholders: %block%
+  wall:
+    usage: "§7Verwende: /wall <MATERIAL>"
+    success: "§aDer Wandblock wurde erfolgreich zu §e'%block%'§7 geändert." # Available Placeholders: %block%
+    owner_err: "§cFehler! §7Du bist nicht der Besitzer dieses Plots"
+    no_perms: "§cFehler! §7Du hast keine Rechte auf den Wandblock §e'%block%'§7!" # Available Placeholders: %block%
+    no_plot: "§cFehler! §7Du stehst auf keinem Grundstück!"
+    not_available: "§cFehler! §7Der Wandblock §e'%block%'§7 steht nicht zur Verfügung!" # Available Placeholders: %block%
+  serversign:
+    no_hand_item: "§cDu musst ein Item in der Hand halten!"
+    cant_sign_item: "§cDieses Item kann nicht signiert werden!"
+    success: "§aServer-Item erfolgreich signiert!"
+  sign:
+    no_hand_item: "§cDu musst ein Item in der Hand halten!"
+    cant_sign_item: "§cDieses Item kann nicht signiert werden!"
+    success: "§aItem erfolgreich signiert!"
+  teamchat:
+    use: "Verwende /teamchat <Nachricht>"
+  triplepickaxe:
+    no_pick: "§cDu musst eine Spitzhacke in der Hand halten."
+    success: "§aDeine Spitzhacke baut nun 3x3 Blöcke ab!"
+  xppay:
+    use: "Verwendung: /levelpay <Spieler> <Level Anzahl>"
+    too_many: "§cDu hast nicht genügend Level."
+    self: "§cDu kannst dir selber keine Level geben."
+    sender: "Du hast §e%level% §7Level an §b%target% §7gegeben." # Available Placeholders: %level%, %target%
+    target: "Du hast §e%level% §7Level von §b%sender% §7bekommen." # Available Placeholders: %level%, %sender%
+
+gui:
+  test: ""
+
+kristall:
+  cmd:
+    amount: "§aDu hast %amount% Kristalle." # Available Placeholders: %amount%
+    add: "§a%amount% Kristalle wurden zu %player% hinzugefügt." # Available Placeholders: %amount%, %player%
+    remove: "§a%amount% Kristalle wurden von %player% entfernt." # Available Placeholders: %amount%, %player%
+    use: "Verwendung: /kristalle [add|remove] <player> <amount>"
+  pay:
+    sender: "§aDu hast %amount% Kristalle an %target% gesendet." # Available Placeholders: %amount%, %target%
+    target: "§aDu hast %amount% Kristalle von %sender% erhalten." # Available Placeholders: %amount%, %sender%
+    sender_err: "§cDu hast nicht genügend Kristalle."
+    use: "Verwendung: /kristallpay <spieler> <anzahl>"
+  shop:
+    gui:
+      title: "%servername% §8» §fKristallshop" # Available Placeholders: %servername%
+      priceprefix: "§7Preis: "
+    1:
+      name: "§cPlatin Crate"
+      preis: "250"
+      cmd1: "kristalle entfernen %player% %price%" # Available Placeholders: %player%, %price%
+      cmd2: "rate giveKey Platin %player% 1" # Available Placeholders: %player%
+      answer: "Du hast §e1 §cPlatin Crate §7gekauft."
+    2:
+      name: "§9Mythic Crate"
+      preis: "500"
+      cmd1: "kristalle entfernen %player% %price%" # Available Placeholders: %player%, %price%
+      cmd2: "rate giveKey Mythic %player% 1" # Available Placeholders: %player%
+      answer: "Du hast §e1 §9Mythic Crate §7gekauft."
+    3:
+      name: "§4Omega Crate"
+      preis: "1000"
+      cmd1: "kristalle entfernen %player% %price%" # Available Placeholders: %player%, %price%
+      cmd2: "crate giveKey Omega %player% 1" # Available Placeholders: %player%
+      answer: "Du hast §e1 §4Omega Crate §7gekauft."
+
+listener:
+  msg: ""
+
+perk:
+  msg: ""
+
+misc:
+  msg: ""

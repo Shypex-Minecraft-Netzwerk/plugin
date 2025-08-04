@@ -1,0 +1,6 @@
+mysql:
+  host: "127.0.0.1" # Default localhost IP: 127.0.0.1
+  port: 3306 # Default MySQL Port: 3306
+  database: "cbsystem"
+  username: "root"
+  password: ""
