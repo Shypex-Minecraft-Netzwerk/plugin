@@ -1,5 +1,6 @@
 .DS_Store
 /.idea/
+/.gradle/
 gradlew
 gradlew.bat
 gradle.properties
